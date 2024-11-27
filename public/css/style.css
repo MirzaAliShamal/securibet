@@ -1,0 +1,1199 @@
+body {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    background: #01111C;
+    .blue-glow {
+    color: #00B1FF; /* Couleur bleue */
+    text-shadow: 0 0 10px rgba(0, 177, 255, 0.8), 0 0 20px rgba(0, 177, 255, 0.6), 0 0 30px rgba(0, 177, 255, 0.4);
+}
+
+}
+
+.text-blue {
+    color: #00B1FF;
+}
+
+.text-green {
+    color: #14FF00;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none !important;
+    outline: none !important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    background: #00B1FF; /* Fond bleu clair */
+    border: 1px solid #00B1FF; /* Contour bleu clair pour uniformité */
+    transition: 0.3s ease all;
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6); /* Glow bleu */
+}
+
+.btn-primary:hover {
+    background: #0082E3; /* Un bleu légèrement plus foncé pour l'effet de hover */
+    box-shadow: 0px 4px 25px rgba(0, 150, 255, 0.8); /* Glow bleu plus intense au survol */
+    transition: 0.3s ease all;
+}
+
+.btn-secondary {
+    color: #FFFFFF;
+    background: rgba(0, 150, 255, 0.2); /* Un fond bleu clair semi-transparent */
+    border: 1px solid #00B1FF;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background: #0075CD1A;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus-visible,
+.form-control:focus-within,
+.form-control:visited {
+    background: #0075CD1A;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #FFFFFF;
+}
+
+select.form-control {
+    appearance: auto !important;
+}
+
+select.form-control option {
+    background: #01253F;
+    color: #FFFFFF;
+}
+
+.form-check,
+.form-check-input,
+.form-check-label {
+    cursor: pointer !important;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+}
+
+.form-check-input:checked[type=radio] {
+    background-image: url('../images/icons/ellipse.png') !important;
+    background-position: 50% 48% !important;
+    background-size: 59% !important;
+    background-repeat: no-repeat !important;
+}
+
+.form-check-input:checked[type=checkbox] {
+    background-image: url('../images/icons/ellipse.png') !important;
+    background-position: 50% 48% !important;
+    background-size: 59% !important;
+    background-repeat: no-repeat !important;
+}
+
+.form-check-input:checked {
+    border: 1px solid #0092FF !important;
+    background: transparent !important;
+}
+
+.form-check-input:focus,
+.form-check-input:focus-visible,
+.form-check-input:focus-within,
+.form-check-input:active,
+.form-check-input:visited {
+    box-shadow: none;
+    outline: none;
+}
+
+.form-check-input.switch {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28255, 255, 255, 0.25%29'/%3e%3c/svg%3e") !important;
+    transition: background-position .15s ease-in-out;
+    width: 2rem;
+
+    vertical-align: top;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+.form-check-input.switch:checked {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+    background-position: right center !important;
+    background-color: #00B1FF !important;
+    border-color: #00B1FF !important;
+}
+
+.card {
+    background: #0075CD1A;
+    border-radius: 24px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 1.5rem 1.5rem;
+}
+
+
+/* Header */
+.header {
+    background: #0092FF0F;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgba(160,160,255, 0.5);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-logo img {
+    width: 220px;
+}
+
+.header-nav {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav .header-nav-item {
+    list-style: none;
+}
+
+.header-nav .header-nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #0092FF0F;
+
+    border-style: solid;
+    border-radius: 8px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-color: rgba(160,160,255, 0.5);
+
+    padding: 1.25rem 1.75rem;
+    transition: 0.3s ease all;
+}
+
+.header-nav .header-nav-icon {
+    width: 20px;
+}
+
+.header-nav .header-nav-link:hover,
+.header-nav .header-nav-link.active {
+    background: #0092FF66;
+    transition: 0.3s ease all;
+}
+
+.header-nav .header-nav-link.active {
+    border-left-width: 1px;
+}
+
+.header-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-action .header-toggler {
+    cursor: pointer;
+}
+
+.dropdown-nav {
+    background: #01253F;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgba(160,160,255, 0.5);
+    padding: 0px;
+}
+
+.dropdown-nav .dropdown-nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #0092FF0F;
+
+    border-style: solid;
+    border-radius: 8px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: rgba(160,160,255, 0.5);
+
+    padding: 1.25rem 0;
+    width: 100%;
+    min-width: 220px;
+    transition: 0.3s ease all;
+}
+
+.dropdown-nav .dropdown-nav-icon {
+    width: 20px;
+}
+
+.dropdown-nav .dropdown-nav-item:hover,
+.dropdown-nav .dropdown-nav-item.active {
+    background: #0092FF66;
+    transition: 0.3s ease all;
+}
+
+.dropdown-nav .dropdown-action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1.25rem 1.5rem;
+}
+
+
+
+
+
+/* Hero Section */
+.hero-section {
+    background-image: url('../images/final hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+/* Fond d'écran spécifique pour les appareils mobiles */
+@media only screen and (max-width: 768px) {
+    .hero-section {
+        background-image: url('../images/final hero mobile.jpg'); /* Image optimisée pour mobile */
+    }
+}
+
+.hero-section-content h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.hero-form {
+    margin-top: 2rem;
+}
+
+.hero-form h5 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 1.25rem;
+}
+
+
+
+
+
+
+/* Calculator Section */
+section {
+    background: #0092FF1A;
+}
+
+section.left-glow {
+    background: url('../images/ellipse-left.png'), #0092FF1A;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+}
+
+section.right-glow {
+    background: url('../images/ellipse-right.png'), #0092FF1A;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+
+.section-title {
+    color: #0092FF;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 1.75rem;
+}
+
+.section-heading {
+    color: #FFFFFF;
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.section-subheading p {
+    font-weight: 700;
+}
+
+.calculator-section .btn-group-calculator {
+    border: 1px solid #00b1ff; /* Contour bleu clair */
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6); /* Glow bleu */
+    border-radius: 8px; /* Arrondi des coins */
+    flex-wrap: wrap;
+    padding: 1rem; /* Ajustement de l'espacement interne */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation douce */
+}
+
+.calculator-section .btn-group-calculator:hover {
+    transform: scale(1.05); /* Zoom léger à 105% */
+    box-shadow: 0px 4px 25px rgba(0, 150, 255, 0.8); /* Effet de glow plus intense au survol */
+}
+
+
+.calculator-section .btn-calculator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    color: #FFFFFF;
+    background: #0075CD1A;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 1rem 1.5rem;
+}
+
+.calculator-section .calculator-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 1rem 0;
+}
+
+.calculator-section .calculator-points span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.calculator-section .calculator-points span img {
+    width: 18px;
+}
+
+.calculator-section .calculator-label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: .5rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shadow-box {
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6); /* Ombre bleu clair avec effet glow */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px;
+    border: 2px solid #00b1ff; /* Retire toute bordure */
+      transition: transform 0.3s ease; /* Animation douce pour l’effet de zoom */
+
+}
+
+.shadow-box:hover {
+    transform: scale(1.05); /* Zoom léger à 105% */
+}
+
+.calculator-range {
+    width: 100%;
+    height: 2.25rem;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+}
+
+.calculator-range:focus {
+    outline: 0
+}
+
+.calculator-range:focus::-webkit-slider-thumb {
+    box-shadow: none !important
+}
+
+.calculator-range:focus::-moz-range-thumb {
+    box-shadow: none !important
+}
+
+.calculator-range::-moz-focus-outer {
+    border: 0
+}
+
+.calculator-range::-webkit-slider-thumb {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-top: -.30rem;
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(90deg, #D99404 0%, #C158B5 100%);
+    border: 3px solid #FFFFFF;
+    border-radius: 1rem;
+    -webkit-transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .calculator-range::-webkit-slider-thumb {
+        -webkit-transition: none;
+        transition: none;
+    }
+}
+
+.calculator-range::-webkit-slider-thumb:active {
+    background: linear-gradient(90deg, #D99404 0%, #C158B5 100%);
+    border: 3px solid #FFFFFF;
+    border-radius: 1rem;
+}
+
+.calculator-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 1.25rem;
+    cursor: pointer;
+    background: #052F4F33;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 24px;
+}
+
+.calculator-range::-moz-range-track {
+    width: 100%;
+    height: 1.25rem;
+    cursor: pointer;
+    background: #052F4F33;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 24px;
+}
+
+.calculator-section .capital-initial {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+/* Couleur de fond pour harmoniser les sections */
+.bonus-detector-section, .promotion-section {
+    background-color: #011e33;
+}
+
+
+
+
+
+
+
+
+
+/* BONUS DETECTOR */
+.bonus-detector-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce pour l'effet de zoom et l'ombre */
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6); /* Ombre bleu clair avec effet glow */
+    border-radius: 8px;
+    border: 2px solid #00b1ff; /* Bordure bleu clair */
+    background-color: rgba(255, 255, 255, 0.0); /* Fond transparent */
+}
+
+.bonus-detector-card:hover {
+    transform: scale(1.05); /* Zoom léger de 105 % */
+    box-shadow: 0px 4px 25px rgba(0, 150, 255, 0.8); /* Augmentation de l'ombre au survol pour un effet glow plus intense */
+}
+
+.bonus-detector-card .top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bonus-detector-card .top .top-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 24px;
+}
+
+.bonus-detector-card .top .top-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.bonus-detector-card .top .top-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bonus-detector-card .top .top-meta h2 {
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.bonus-detector-card .top .top-meta .top-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 90px;
+    background: #0082E399;
+    color: #FFFFFF;
+    border-radius: 24px;
+    font-weight: 700;
+}
+
+.bonus-detector-card .body {
+    margin: 1rem 0;
+    min-height: 75px;
+}
+
+.bonus-detector-card .body p {
+    margin: 0px;
+}
+
+
+
+
+
+/* PROMOTION */
+.promotion-card {
+    background: #0075CD1A; /* Conserver la couleur de fond */
+    border-radius: 24px;   /* Bordure arrondie */
+    border: 2px solid #00B1FF; /* Bordure bleue */
+    box-shadow: 0px 4px 20px rgba(0, 177, 255, 0.6); /* Effet de glow bleu clair */
+    color: #FFFFFF;
+    padding: 0; /* Enlever les marges internes */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation douce */
+}
+
+.promotion-card:hover {
+    transform: scale(1.05); /* Zoom léger au survol */
+    box-shadow: 0px 4px 30px rgba(0, 177, 255, 0.8); /* Glow bleu plus intense */
+}
+
+.promotion-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Assurer que l'image remplit tout l'espace */
+    border-radius: 24px; /* Conserver les coins arrondis */
+}
+
+.promotion-section .promotion-floating-card {
+    background: #0075CD1A;
+    box-shadow: 0px 0px 90px 0px #FFFFFF1C;
+    width: 232px;
+    text-align: center;
+    position: absolute;
+    top: -8rem;
+    left: -10rem;
+}
+
+.promotion-section .floating-arrow {
+    position: absolute;
+    top: -1rem;
+    left: -6rem;
+}
+
+
+
+
+
+
+
+/* ARBITRAGE SECTION */
+.arbitrage-card {
+    background: #0075CD1A; /* Fond bleu clair */
+    border-radius: 24px;
+    border: 2px solid #00B1FF; /* Bordure bleue */
+    box-shadow: 0px 4px 20px rgba(0, 177, 255, 0.6); /* Glow bleu */
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation douce pour effet de hover */
+}
+
+.arbitrage-card:hover {
+    transform: scale(1.05); /* Zoom léger au survol */
+    box-shadow: 0px 4px 30px rgba(0, 177, 255, 0.8); /* Glow bleu plus intense */
+}
+
+.arbitrage-card .arbitrage-card-image {
+    height: 250px; /* Hauteur fixe pour l'image */
+    overflow: hidden; /* Empêche l'image de déborder */
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.arbitrage-card .arbitrage-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Remplit le conteneur sans déformer */
+    border-radius: 24px 24px 0 0; /* Arrondir uniquement les coins supérieurs */
+}
+
+.arbitrage-card .arbitrage-card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.arbitrage-card .arbitrage-card-body h3 {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+
+
+
+/* FAQ SECTION */
+.faq-section .accordion-header,
+.faq-section .accordion-button,
+.faq-section .accordion-item {
+    background-color: transparent;
+}
+
+.faq-section .accordion-item {
+    border: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 0px;
+}
+
+.faq-section .accordion-button {
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.faq-section .accordion-button:not(.collapsed)::after,
+.faq-section .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+}
+
+.faq-section .accordion-button:focus,
+.faq-section .accordion-button:focus-visible,
+.faq-section .accordion-button:focus-within,
+.faq-section .accordion-button:visited {
+    box-shadow: none;
+    outline: none;
+}
+
+.faq-section .accordion-body {
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+/* REVIEWS SECTION */
+.review-card .client-meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.review-card .client-meta .client-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.review-card .client-meta .client-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.slick-initialized .slick-slide {
+    margin: 10px;
+}
+
+.slick-dots li button:before {
+    font-size: 16px;
+    color: #80C8FF33;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #0092FF;
+}
+
+
+
+
+
+
+
+/* NEWSLETTER */
+.newsletter-section {
+    background-image: url('../images/newsletter-cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* FOOOTER */
+.footer {
+    background: #0092FF1A;
+    border-top: 1px solid #FFFFFF;
+    padding: 2.5rem 0;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-logo img {
+    width: 220px;
+}
+
+.footer h5 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer .footer-menu {
+    margin-top: 1rem;
+}
+
+.footer .footer-menu .footer-menu-link {
+    font-size: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    opacity: 0.85;
+    margin-bottom: 0.5rem;
+}
+
+.footer .footer-menu .footer-menu-link:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-bottom {
+    background: #0092FF1A;
+    border-top: 1px solid #FFFFFF;
+    padding: 2.5rem 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    background: #0092FF1A;
+    padding: 1.5rem 0;
+    border-top: 1px solid #FFFFFF;
+}
+
+
+/* MONEYBET SECTION */
+
+.moneybet-card {
+    background: #0075CD1A;
+    border-radius: 14px;
+    border: 2px solid #00b1ff;
+    color: #FFFFFF;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6);
+}
+
+.moneybet-filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.moneybet-filters-left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.moneybet-filters-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.moneybet-filters-right .percentage-sort,
+.moneybet-filters-right .odds-sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.moneybet-row-title,
+.moneybet-row-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.moneybet-title-left,
+.moneybet-title-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #012F51;
+    border: 1px solid #FFFFFF;
+    height: 50px;
+    padding: 0 0.5rem;
+}
+
+.moneybet-title-left {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.moneybet-title-right {
+    flex: 1;
+    gap: 5px;
+    justify-content: space-between;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.moneybet-title-left .moneybet-flag {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+.moneybet-title-left .moneybet-flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.moneybet-row-content {
+    padding: 0.5rem 0;
+}
+
+.moneybet-content-left,
+.moneybet-content-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.moneybet-content-left {
+    width: calc(30px + 0.5rem + 0.5rem);
+    font-size: 14px;
+    padding: 0px;
+}
+
+.moneybet-content-right {
+    flex: 1;
+    gap: 5px;
+    justify-content: space-between;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.moneybet-content-teams {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.moneybet-content-teams .moneybet-team {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.moneybet-content-teams .moneybet-team .moneybet-team-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.moneybet-content-teams .moneybet-team .moneybet-team-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.moneybet-content-teams .moneybet-team .moneybet-team-name {
+    font-size: 15px;
+}
+
+.moneybet-content-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    justify-content: flex-end;
+}
+
+.moneybet-content-actions .moneybet-percentage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 80px;
+    border-radius: 5px;
+    background: #0092FF5C;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+}
+
+.moneybet-content-actions .moneybet-odds {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 80px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #000000;
+    font-weight: 600;
+    border: 1px solid #0092FF5C;
+}
+
+.moneybet-content-actions .moneybet-bet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 55px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: #00B1FF;
+    border: 1px solid #00B1FF;
+    transition: 0.3s ease all;
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6);
+    cursor: pointer;
+}
+
+.moneybet-content-actions .moneybet-bet:hover {
+    background: #0082E3;
+    box-shadow: 0px 4px 25px rgba(0, 150, 255, 0.8);
+    transition: 0.3s ease all;
+}
+
+.moneybet-content-actions .moneybet-bet img {
+    width: 24px;
+}
+
+.moneybet-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.moneybet-tools .moneybet-tool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    background: #0075CD1A;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.moneybet-tools .moneybet-tool .moneybet-tool-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.moneybet-tools .moneybet-tool .moneybet-tool-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.moneybet-tools .moneybet-tool .moneybet-tool-name {
+    margin-left: 1rem;
+}
+
+.moneybet-bonuses {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.moneybet-bonuses .moneybet-bonus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 88px;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    background: #0075CD1A;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.moneybet-bonuses .moneybet-bonus .moneybet-bonus-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.moneybet-bonuses .moneybet-bonus .moneybet-bonus-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.moneybet-bonuses .moneybet-bonus .moneybet-bonus-name {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.monebet-filters-group {
+    background: #012F51;
+    border: 1px solid #FFFFFF;
+    border-radius: 14px;
+    padding: 1rem 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.filter-ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filter-ul .filter-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem 0;
+    border-bottom: 1px solid #FFFFFF;
+    color: #009FE5;
+}
+
+.filter-ul .filter-li:last-child {
+    border-bottom: 0px;
+}
+
+
+
+
+
+
+/* LOGIN SECTION */
+
+.login-section {
+    height: calc(100vh - 71px - 73px);
+}
+
+.login-card {
+    background: #0075CD1A;
+    border-radius: 14px;
+    border: 2px solid #00b1ff;
+    color: #FFFFFF;
+    padding: 1.5rem 1.5rem;
+    box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6);
+}

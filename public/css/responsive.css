@@ -1,0 +1,205 @@
+@media (min-width: 991px) {
+    .mobile-view {
+        display: none;
+    }
+
+    .desktop-view {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .mobile-view {
+        display: block;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+
+    .header {
+        padding: 1.5rem 0;
+        border: 0px;
+        border-radius: 0px;
+        background: #0092FF1A;
+    }
+
+    .header-logo img {
+        width: 180px;
+    }
+
+    .hero-section-content {
+        text-align: center;
+    }
+
+    .hero-section-content button {
+        width: 100%;
+    }
+
+    .promotion-section {
+        padding-top: 3rem !important;
+    }
+
+    .promotion-card {
+        margin-top: 9rem;
+    }
+
+    .promotion-section .promotion-floating-card {
+        box-shadow: none;
+        width: 232px;
+        top: -1rem;
+        left: 0.75rem;
+    }
+
+    .promotion-section .floating-arrow {
+        position: absolute;
+        top: 5.5rem;
+        left: 3rem;
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section-content h1 {
+        font-size: 36px;
+    }
+
+    .section-heading {
+        font-size: 34px;
+    }
+
+    .calculator-section .btn-calculator {
+        width: 50%;
+    }
+
+    .calculator-section .calculator-points {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .calculator-section .calculator-points span {
+        font-size: 16px;
+    }
+
+    .bonus-detector-card .body {
+        margin: 1rem 0;
+        min-height: 90px;
+    }
+
+    .moneybet-title-right {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hero-section-content h1 {
+        font-size: 32px;
+    }
+
+    .section-heading {
+        font-size: 28px;
+    }
+
+    .section-subheading {
+        font-size: 15px;
+    }
+
+    .bonus-detector-card .top .top-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .bonus-detector-card .top .top-meta h2 {
+        font-size: 28px;
+    }
+
+    .bonus-detector-card .top .top-meta .top-price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 70px;
+        font-size: 14px;
+    }
+
+    .promotion-card .promotion-card-title .promotion-results .win-percentage {
+        font-size: 22px;
+    }
+
+    .promotion-card .promotion-card-title .promotion-results h5 {
+        font-size: 16px;
+    }
+
+    .promotion-card .promotion-card-title .promotion-card-title-action .promotion-action {
+        width: 40px;
+        height: 40px;
+    }
+
+    .promotion-card .promotion-card-title .promotion-card-title-action .promotion-action img {
+        width: 20px;
+    }
+
+    .promotion-card .promotion-card-body .promotion-match h5 {
+        font-size: 18px;
+    }
+
+    .promotion-card .promotion-card-body .promotion-rebounds {
+        font-size: 14px;
+        height: 40px;
+        padding: 0 1rem;
+    }
+
+    .promotion-card .promotion-card-table .promotion-bet-logo {
+        min-width: 40px;
+        height: 40px;
+    }
+
+    .promotion-card .promotion-card-table .promotion-bet-details span {
+        font-size: 13px;
+    }
+
+
+    .moneybet-filters,
+    .moneybet-filters-right .percentage-sort,
+    .moneybet-filters-right .odds-sort {
+        font-size: 12px !important;
+    }
+
+    .moneybet-title-right {
+        font-size: 12px;
+    }
+
+    .moneybet-content-actions .moneybet-percentage,
+    .moneybet-content-actions .moneybet-odds,
+    .moneybet-content-actions .moneybet-bet {
+        font-size: 14px;
+        height: 42px;
+        width: 55px;
+    }
+}
+
+@media (max-width: 430px) {
+    .moneybet-filters,
+    .moneybet-filters-right .percentage-sort,
+    .moneybet-filters-right .odds-sort {
+        font-size: 10px !important;
+    }
+
+    .moneybet-title-right {
+        font-size: 10px;
+    }
+
+    .moneybet-content-left,
+    .moneybet-content-teams .moneybet-team .moneybet-team-name {
+        font-size: 13px;
+    }
+
+    .moneybet-content-actions .moneybet-percentage,
+    .moneybet-content-actions .moneybet-odds,
+    .moneybet-content-actions .moneybet-bet {
+        font-size: 14px;
+        height: 32px;
+        width: 40px;
+    }
+}

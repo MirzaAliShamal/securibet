@@ -1,4 +1,4 @@
-<x-guest-layout>
+{{-- <x-guest-layout>
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
@@ -44,4 +44,43 @@
             </x-primary-button>
         </div>
     </form>
-</x-guest-layout>
+</x-guest-layout> --}}
+
+@extends('layouts.front', ['footer' => 'pages-footer'])
+
+@section('content')
+    <section class="login-section py-5 left-glow">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 h-100">
+                    <h2 class="fw-bolder mb-3 text-center">Login into your Account</h2>
+                    <div class="login-card">
+                        <form action="{{ route('login') }}" method="POST">
+                            @csrf
+                            <div class="form-group">
+                                <label for="form-label">Email *</label>
+                                <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email" required>
+                                @error('email')
+                                    <div class="invalid-feedback">
+                                        <strong>{{ $message }}</strong>
+                                    </div>
+                                @enderror
+                            </div>
+                            <div class="form-group">
+                                <label for="form-label">Password *</label>
+                                <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" placeholder="**********" required>
+                                @error('password')
+                                    <div class="invalid-feedback">
+                                        <strong>{{ $message }}</strong>
+                                    </div>
+                                @enderror
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">S'identifier</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+@endsection
