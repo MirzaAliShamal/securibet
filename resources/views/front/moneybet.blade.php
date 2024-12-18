@@ -4,190 +4,191 @@
     <section class="monybet-section py-5 left-glow">
         <div class="container-fluid">
             <div class="row">
-                {{-- <div class="col-lg-3 col-md-12 col-sm-12 col-12 mb-4">
-                    <div class="moneybet-card">
-                        <div class="d-flex justify-content-start mb-3 gap-3 align-items-center">
-                            <img src="{{ asset('images/icons/filters.png') }}" width="20px" height="20px" alt="">
-                            <h5 class="fw-bolder mb-0">Filters</h5>
-                        </div>
-                        <div class="monebet-filters-group moneybet-filters-types">
-                            <h6 class="fw-bolder">Types de paris</h6>
-                            <div class="filter-ul">
-                                <div class="filter-li">
-                                    <div class="filter-label">
-                                        <label class="form-check-label" for="tous">Tous types</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="tous">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="monebet-filters-group moneybet-filters-percentage">
-                            <h6 class="fw-bolder">Pourcentage</h6>
-                            <div class="form-group mb-0">
-                                <input type="range" class="form-range calculator-range" id="percentage-range" min="300" max="5000" step="50" value="300">
-                            </div>
-                        </div>
-                        <div class="monebet-filters-group moneybet-filters-cotes">
-                            <h6 class="fw-bolder">Cotes</h6>
-                            <div class="form-group mb-0">
-                                <input type="range" class="form-range calculator-range" id="cotes-range" min="300" max="5000" step="50" value="300">
-                            </div>
-                        </div>
-                        <div class="monebet-filters-group moneybet-filters-types">
-                            <h6 class="fw-bolder">Heure de Début</h6>
-                            <div class="filter-ul">
-                                <div class="filter-li">
-                                    <div class="filter-label">
-                                        <label class="form-check-label" for="proch24">Prochaines 24 heures</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="proch24">
-                                    </div>
-                                </div>
-                                <div class="filter-li">
-                                    <div class="filter-label">
-                                        <label class="form-check-label" for="proch48">Prochaines 48 heures</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="proch48">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-                <div class="col-lg-9 col-md-12 col-sm-12 col-12 mb-4">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12 mb-4">
                     <div class="moneybet-card">
                         <div class="d-flex justify-content-start mb-3 gap-3 align-items-center">
                             <img src="{{ asset('images/icons/moneybets.png') }}" width="24px" height="32px" alt="">
-                            <h2 class="fw-bolder">Money Bets</h2>
+                            <h2 class="fw-bolder">Money Bets 3.0</h2>
                         </div>
-                        <p>
-                            Avecnotre outil Money Bets 3.0, vous ne faites plus de paris selon un feeling. Notre IA 3.0 analyse chaque match, chaque équipe,
-                            et vous livre des prédictions optimisées avec un taux de réussite de 76 %. Vous voulez des paris rentables basés sur des données
-                            fiables ? C'est votre destination ultime pour transformer les tendances statistiques en gains réels.
-                        </p>
+                       <div class="alert alert-danger" role="alert">
+    <strong>⚠️ Attention :</strong> Suivez ces 3 étapes pour maximiser vos chances de réussite.<BR>
+        Ne pariez jamais plus de 10% de votre capital sur chaque paris.<br>
+        Ce sont des paris simples et non pas des combinés.
+</div>
 
-                        <div class="moneybet-table">
-                            <div class="moneybet-filters">
-                                <div class="moneybet-filters-left">
-                                    <div class="d-flex gap-2 justify-content-center align-items-center">
-                                        <p class="mb-0 fw-bolder">Combiner%</p>
-                                        <div class="form-check form-switch">
-                                            <input class="form-check-input switch" type="checkbox" role="switch" id="combiner">
-                                        </div>
-                                    </div>
+<ol>
+    <li>
+        <p>
+            <strong><span class="text-blue blue-glow">Le Budget:</span> </strong>
+            <ul>
+            <li>Entre 150€ et 450€ :</li>Inscrivez-vous sur les 
+           <a href="#moneybet-bonuses" class="text-primary text-decoration-underline">2 premiers bookmakers ici</a>. 
+           
+        <li>Egal ou supérieur à 500€ :</li></strong> Inscrivez-vous sur les 
+            <a href="#moneybet-bonuses" class="text-primary text-decoration-underline">3 bookmakers ici</a>. 
+         
+            </ul>
+        </p>
+    </li>
+    <li>
+        <p>
+            <strong><span class="text-blue blue-glow">Pourquoi choisir ces bookmakers ?</span></strong> 
+            <br>Ces plateformes offrent :
+        </p>
+        <ul>
+            <li>Les cotes les plus élevées du marché pour maximiser vos gains.</li>
+            <li>Une couverture complète : si un bookmaker ne propose pas le match recommandé, l'autre l'aura.</li>
+        </ul>
+    </li><br>
+    <li>
+            
+        <p>
+            <strong><span class="text-blue blue-glow">Comment parier ?</span></strong> 
+            <br>
+        </p>
+        Cliquez sur la case bleue avec le sac d'argent pour accéder au match sur le bookmaker offrant la meilleure cote parmi nos 3 options.
+    </li><br>
+    <li>
+        <p>
+            <strong><span class="text-blue blue-glow">Objectif à retenir :</span></strong> La méthode ne consiste pas à doubler votre capital en 24 heures. 
+            Avec l'IA 3.0, l'objectif est de faire croître votre capital initial chaque mois.
+        </p>
+    </li>
+</ol>
 
-                                    <div class="d-flex gap-2 justify-content-center align-items-center">
-                                        <p class="mb-0 fw-bolder">Seulement Money</p>
-                                        <div class="form-check form-switch">
-                                            <input class="form-check-input switch" type="checkbox" role="switch" id="money">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="moneybet-filters-right">
-                                    <div class="percentage-sort">
-                                        <span>Perc.</span>
-                                        <img src="{{ asset('images/icons/sorting.png') }}" width="18px" alt="">
-                                    </div>
-                                    <div class="odds-sort">
-                                        <span>Odds.</span>
-                                        <img src="{{ asset('images/icons/sorting.png') }}" width="18px" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            @for($i = 0; $i < 10; $i++)
-                            <div class="moneybet-row">
-                                <div class="moneybet-row-title">
-                                    <div class="moneybet-title-left">
-                                        <div class="moneybet-flag">
-                                            <img src="{{ asset('images/icons/moneybet-flag.png') }}" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="moneybet-title-right">
-                                        <div class="moneybet-match">NORVÈGE / GROUPE 3 DIVISION 3</div>
-                                        <div class="moneybet-goals">Total de buts supérieurs à 3.5</div>
-                                    </div>
-                                </div>
-                                <div class="moneybet-row-content">
-                                    <div class="moneybet-content-left">
-                                        19 Aug 2024
-                                    </div>
-                                    <div class="moneybet-content-right">
-                                        <div class="moneybet-content-teams">
-                                            <div class="moneybet-team">
-                                                <div class="moneybet-team-icon">
-                                                    <img src="{{ asset('images/icons/team-icon.png') }}" alt="">
-                                                </div>
-                                                <div class="moneybet-team-name">
-                                                    KFUM ||
-                                                </div>
-                                            </div>
-                                            <div class="moneybet-team">
-                                                <div class="moneybet-team-icon">
-                                                    <img src="{{ asset('images/icons/team-icon.png') }}" alt="">
-                                                </div>
-                                                <div class="moneybet-team-name">
-                                                    Ullem
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="moneybet-content-actions">
-                                            <div class="moneybet-percentage">66%</div>
-                                            <div class="moneybet-odds">1.72</div>
-                                            <div class="moneybet-bet">
-                                                <img src="{{ asset('images/icons/dollar-bag.png') }}" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            @endfor
-                        </div>
+<div class="alert alert-warning mt-4" role="alert">
+    <strong>💡 Garantie :</strong> Si vous n'êtes pas dans le profit après 30 jours d'abonnement, nous remboursons intégralement votre mensualité. 
+    (Important : vous devez être inscrit sur au moins les deux premiers bookmakers pour garantir d'avoir les cotes optimales et avoir parié un montant similaire sur tous les paris proposés.)
+</div>
+                       <div class="moneybet-table">
+    <div class="moneybet-filters">
+        <div class="moneybet-filters-left">
+            <!-- Suppression des filtres "Combiner%" et "Seulement Money" -->
+        </div>
+    </div>
+    @foreach ($moneybets as $moneybet)
+        <div class="moneybet-row">
+            <div class="moneybet-row-title">
+                <div class="moneybet-title-left">
+                    <div class="moneybet-flag">
+                        <img src="{{ asset('flags/circle/Flag of '.$moneybet->country?->name.'.png') }}" alt="">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 col-12 mb-4">
-                    <div class="moneybet-card">
-                        <div class="d-flex justify-content-start mb-3 gap-3 align-items-center">
-                            <h5 class="fw-bolder">Autres Outlis De Paris</h5>
+                <div class="moneybet-title-right">
+                    <div class="moneybet-match">{{ Str::upper($moneybet->country?->name) }} / {{ $moneybet->league }}</div>
+                    <div class="moneybet-goals">{{ $moneybet->total_score }}</div>
+                </div>
+            </div>
+            <div class="moneybet-row-content">
+                <div class="moneybet-content-left">
+                    {{ $moneybet->date.' '.$moneybet->time }}
+                </div>
+                <div class="moneybet-content-right">
+                    <div class="moneybet-content-teams">
+                        <div class="moneybet-team">
+                            <div class="moneybet-team-icon">
+                                <img src="{{ asset('images/teams/'.$moneybet->team_1) }}" alt="">
+                            </div>
+                            <div class="moneybet-team-name">
+                                {{ $moneybet->team_1 }}
+                            </div>
                         </div>
-                        <div class="moneybet-tools">
-                            <div class="moneybet-tool">
-                                <div class="moneybet-tool-icon">
-                                    <img src="{{ asset('images/icons/moneybet-tool.png') }}" alt="">
-                                </div>
-                                <div class="moneybet-tool-name">Paris sûrs</div>
-                                <div class="moneybet-tool-action ms-auto">
-                                    <img src="{{ asset('images/icons/keyboard_arrow_down.png') }}" alt="">
-                                </div>
+                        <div class="moneybet-team">
+                            <div class="moneybet-team-icon">
+                                <img src="{{ asset('images/teams/'.$moneybet->team_2) }}" alt="">
+                            </div>
+                            <div class="moneybet-team-name">
+                                {{ $moneybet->team_2 }}
                             </div>
                         </div>
                     </div>
-                    <div class="moneybet-card">
-                        <div class="d-flex justify-content-start mb-3 gap-3 align-items-center">
-                            <img src="{{ asset('images/icons/france-flag.png') }}" width="30px" alt="">
-                            <h5 class="fw-bolder">Les Meilleurs Bonus Des Bookmarkers En France</h5>
-                        </div>
+                    <div class="moneybet-content-actions">
+                        <!-- Affichage du pourcentage -->
+                        <div class="moneybet-percentage">{{ $moneybet->combine_percentage }}%</div>
+                        <div class="moneybet-odds">{{ $moneybet->odds }}</div>
+                        <a class="moneybet-bet" href="{{ $moneybet->url }}" target="_blank">
+                            <img src="{{ asset('images/icons/dollar-bag.png') }}" alt="" class="pulse-animation">
+<style>
+    .pulse-animation {
+        animation: pulse 2s infinite;
+    }
 
-                        <div class="moneybet-bonuses">
-                            <div class="moneybet-bonus">
-                                <div class="moneybet-bonus-icon">
-                                    <img src="{{ asset('images/fezbet.png') }}" alt="">
-                                </div>
-                                <div class="moneybet-bonus-name">
-                                    <span>Fezbet</span>
-                                    <span>Bonus de premier dépét Jjusqu'a 1008</span>
-                                </div>
-                                <div class="moneybet-bonus-action">
-                                    <button type="button" class="btn btn-primary">Réclamer</button>
-                                </div>
-                            </div>
-                        </div>
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-4">
+    <style>
+        #hide-other-tools {
+            display: none;
+        }
+    </style>
+
+    <!-- Section "Autres Outils De Paris" -->
+    <div class="moneybet-card" id="hide-other-tools">
+        <div class="d-flex justify-content-start mb-3 gap-3 align-items-center">
+            <h5 class="fw-bolder">Autres Outils De Paris</h5>
+        </div>
+        <div class="moneybet-tools">
+            @foreach ($bettingTools as $tool)
+                <a href="{{ $tool->link }}" target="_blank" style="text-decoration:none;">
+                    <div class="moneybet-tool">
+                        <div class="moneybet-tool-icon">
+                            <img src="{{ Storage::url($tool->logo) }}" alt="">
+                        </div>
+                        <div class="moneybet-tool-name">{{ $tool->name }}</div>
+                        <div class="moneybet-tool-action ms-auto">
+                            <img src="{{ asset('images/icons/keyboard_arrow_down.png') }}" alt="">
+                        </div>
+                    </div>
+                </a>
+            @endforeach
+        </div>
+    </div>
+
+    <!-- Section "Les Meilleurs Bonus Des Bookmakers En France" -->
+    <div class="moneybet-card">
+        <div class="d-flex justify-content-start mb-3 gap-3 align-items-center">
+            <img src="{{ asset('images/icons/france-flag.png') }}" width="30px" alt="">
+            <h5 class="fw-bolder">Les Meilleurs Bonus Des Bookmakers En France</h5>
+        </div>
+
+        <div id="moneybet-bonuses" class="moneybet-bonuses">
+            @foreach ($bookmarkers as $bookmarker)
+                <div class="moneybet-bonus">
+                    <div class="moneybet-bonus-icon">
+                        <img src="{{ Storage::url($bookmarker->logo) }}" alt="">
+                    </div>
+                    <div class="moneybet-bonus-name">
+                        <span>{{ $bookmarker->name }}</span>
+                        <span>{{ $bookmarker->description }}</span>
+                    </div>
+                    <div class="moneybet-bonus-action">
+                        <a href="{{ $bookmarker->link }}" target="_blank" class="btn btn-primary">Let's go</a>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</div>
+
     </section>
 @endsection

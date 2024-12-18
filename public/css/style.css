@@ -817,6 +817,45 @@ section.right-glow {
 
 
 
+/* PACKAGE SECTION */
+.package-card .package-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.package-card .package-header .package-price .amount {
+    font-size: 40px;
+    font-weight: 800;
+    color: #00B1FF;
+}
+
+.package-switcher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    width: 300px;
+    background: #80C8FF33;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+}
+
+.package-switcher .package-type {
+    cursor: pointer;
+}
+
+.package-switcher .package-type .active {
+    font-weight: 800;
+    color: #00B1FF;
+}
+
+
+
+
 /* FOOOTER */
 .footer {
     background: #0092FF1A;
@@ -879,6 +918,7 @@ section.right-glow {
     color: #FFFFFF;
     padding: 1.5rem 1.5rem;
     box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6);
+    margin-bottom: 1rem;
 }
 
 .moneybet-filters {
@@ -948,7 +988,6 @@ section.right-glow {
 .moneybet-title-left .moneybet-flag {
     width: 30px;
     height: 30px;
-    border: 1px solid #FFFFFF;
     border-radius: 100px;
 }
 
@@ -1108,6 +1147,8 @@ section.right-glow {
 
 .moneybet-tools .moneybet-tool .moneybet-tool-name {
     margin-left: 1rem;
+    text-decoration: none !important;
+    color: #FFFFFF;
 }
 
 .moneybet-bonuses {
@@ -1196,4 +1237,25 @@ section.right-glow {
     color: #FFFFFF;
     padding: 1.5rem 1.5rem;
     box-shadow: 0px 4px 20px rgba(0, 150, 255, 0.6);
+}
+
+
+
+
+.checkout-table th {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.checkout-table td {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-bottom: 0px;
+}
+
+.checkout-table tfoot th {
+    border-bottom: 0px;
+    border-top: 1px solid #FFFFFF;
 }

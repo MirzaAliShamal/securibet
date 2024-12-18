@@ -19,4 +19,8 @@ require __DIR__.'/auth.php';
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/checkout', [HomeController::class, 'checkout'])->name('checkout');
-Route::get('/moneybet', [HomeController::class, 'moneybet'])->name('moneybet');
+Route::get('/stripe/init', [HomeController::class, 'stripeInit'])->name('stripe.init');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/moneybet', [HomeController::class, 'moneybet'])->name('moneybet');
+});
